@@ -22,8 +22,8 @@ This paper investigates whether pro-immigration framing can shift public opinion
 
 ## Key Findings
 - **Policy attitudes are stable**: Neither growth nor fertility cues increase support for immigration liberalization.  
-- **Growth frame backfires**: Significantly increases support for maintaining current levels (p < 0.05).  
-- **Fertility frame limited**: Slightly reduces penalties against some non-ethnic Koreans (notably Filipinos), but effects are narrow.  
+- **Status quo bias for growth frame**: the growth frame intervention significantly increases support for maintaining current levels (p < 0.05).  
+- **Fertility frame limited**: Slightly reduces penalties against some non-ethnic Koreans (notably Filipinos).  
 - **Entrenched hierarchies**: Origins-based discrimination, especially against Chinese immigrants, persists across treatments.
 
 ## Contributions
