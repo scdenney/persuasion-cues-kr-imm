@@ -1,47 +1,54 @@
 # Persuasion and Prejudice: Are South Korean Attitudes Toward Immigration Open to Change?
 
-This repository hosts materials for the working paper “Persuasion and Prejudice: Are South Korean Attitudes Toward Immigration Open to Change?"
+This repository hosts the working paper "Persuasion and Prejudice: Are South Korean Attitudes Toward Immigration Open to Change?"
 
 ## Authors
-- **Steven Denney** (Leiden University)  
-- **Isa van Dam** (Leiden University)  
-- **Christopher Green** (Leiden University)  
 
-## Project Overview
-This paper investigates whether pro-immigration framing can shift public opinion in South Korea, a country facing demographic decline yet marked by skepticism toward immigration. We field a nationally representative survey experiment (n=2,010, January 2024) combining framing and conjoint designs to test whether messages emphasizing immigration’s role in sustaining economic growth or addressing low fertility affect policy preferences and reduce discrimination.
+- **Steven Denney** (Leiden University)
+- **Isa van Dam** (Leiden University)
+- **Christopher Green** (Leiden University)
 
-**Keywords**: immigration, persuasion, public opinion, survey experiments, South Korea  
+## Project overview
+
+The paper asks whether the pro-immigration frames the South Korean executive has actually used since 2018 — economic-growth and demographic-decline cues — move public support for liberalisation, and whether they reduce the origin- and religion-based penalties that structure South Korean preferences over which immigrants should be admitted. We field a nationally representative survey experiment (n = 1,999, January 2024) that crosses three between-subjects framing arms with a forced-choice conjoint of immigrant-admission profiles.
+
+**Keywords:** immigration, persuasion, framing, conjoint experiment, status-quo activation, ethnic restoration, South Korea
 
 ## Methodology
-- **Design**:  
-  - Framing experiment testing growth and fertility cues on policy preferences.  
-  - Choice-based conjoint (CBC) experiment on immigrant profiles (origin, ethnicity, occupation, language, etc.).  
-- **Sample**: 2,010 South Koreans, recruited via Qualtrics online panel, representative with post-stratification weights.  
-- **Analysis**: Logistic regression (policy outcomes) and OLS conjoint estimators (AMCEs and marginal means).  
-- **Supplementary Information**: Includes survey details, survey instruments, subgroup analyses, and full treatment × attribute contrasts.  
 
-## Key Findings
-- **Policy attitudes are stable**: Neither growth nor fertility cues increase support for immigration liberalization.  
-- **Status quo bias for growth frame**: the growth frame intervention significantly increases support for maintaining current levels (p < 0.05).  
-- **Fertility frame limited**: Slightly reduces penalties against some non-ethnic Koreans (notably Filipinos).  
-- **Entrenched hierarchies**: Origins-based discrimination, especially against Chinese immigrants, persists across treatments.
+- **Framing experiment**: three between-subjects arms (control / economic-growth cue / fertility-crisis cue), with a single-choice policy-preference dependent variable (increase / maintain / decrease the foreign-born population).
+- **Forced-choice conjoint**: ten paired-profile tasks per respondent across eleven attributes (country of origin, ethnicity, occupation, Korean language, religion, sex, marital status, age, years in Korea, employment history, Korea visit history). The persuasion cue is reinforced after the fourth task.
+- **Sample**: 1,999 native-born South Korean respondents, recruited via Qualtrics in January 2024, post-stratified to Statistics Korea marginals on age, sex, education, and region.
+- **Estimation**: multinomial logistic regression for the policy-preference outcome (with bootstrap confidence intervals and TOST equivalence tests against a 5-percentage-point smallest effect size of interest); cregg-based AMCEs and marginal means for the conjoint, with respondent-clustered standard errors and survey weights.
+
+## Key findings
+
+The paper reports two intervention effects that revise the standard "framing fails on immigration" reading.
+
+1. **The growth cue polarises along ideological lines.** Centrists and conservatives consolidate Maintain by about 11 percentage points each, while progressives more than double their share selecting Decrease (9.8% to 22.3%) and lose 16 points on Maintain. Growth × Centrist on Maintain: +20.6pp (p = .002); Growth × Conservative: +26.2pp (p < .001). The pattern is inconsistent with parallel-updating, status-quo-activation, and competitive-frames accounts as uniform-population mechanisms. We interpret it as a source-cue effect: progressives reject the executive-branded growth message on partisan source grounds even where its content matches their priors.
+
+2. **The fertility cue activates an ethnic-restoration heuristic.** It rehabilitates unemployed ethnic-Korean profiles in the conjoint (the unemployment penalty for co-ethnics drops from 12 to 4 percentage points; LPM coefficient +5.6pp, p < .001) and produces a 10.6-point Brazil-vs-China swap among low-skill profiles. The pattern concentrates on woman-coded profiles and respondents aged 30-39, the cohort for whom the fertility frame is most biographically accessible. We read this as a demographic-urgency deservingness gate.
+
+Origin and religion penalties (about 10 points for China vs the United States, about 14 points for Muslim vs non-religious profiles) remain stable across cues at magnitudes consistent with cross-national conjoint work.
 
 ## Contributions
-The paper makes four main contributions:  
-1. Provides one of the first tests of persuasion effects on immigration attitudes in a non-Western democracy with a limited immigration history.  
-2. Shows that growth frames reinforce status quo preferences, drawing support away from liberalization rather than encouraging it.  
-3. Finds that fertility frames produce only modest reductions in discrimination, limited to some non-ethnic Korean immigrant profiles.  
-4. Demonstrates the persistence of entrenched hierarchies of evaluation—especially origins-based penalties against Chinese immigrants—despite framing interventions.  
 
-## Repository Contents
-- `paper/`: Latest working paper version (incl. supplementary information)  
-- `data/`: De-identified replication datasets (to be released upon publication)  
-- `code/`: Analysis scripts (to be released upon publication)  
+1. Identifies a boundary condition on the parallel-updating consensus: in elite-consensus contexts where pro-immigration framing is already the official line, source-cue effects can dominate informational ones, producing opposite-direction movement across the ideological spectrum.
+2. Specifies a mechanism (the demographic-urgency deservingness gate) by which fertility framing produces selective attitudinal change without producing aggregate movement, complicating both the salience-not-direction account and the standard "no effect" reading of immigration framing nulls.
+3. Documents the durability of origin- and religion-based discrimination in a major non-Western democracy, replicating cross-national patterns at higher precision and showing that an explicit anti-discrimination cue ("regardless of background") embedded in both pro-immigration framings does not displace the deepest penalties.
+
+## Repository contents
+
+- `paper/`: Latest working paper (manuscript + Supplementary Information combined into a single PDF).
+- `data/`: De-identified replication datasets (to be released upon publication).
+- `code/`: Analysis scripts (to be released upon publication).
 
 ## Funding
-This work was supported by the Academy of Korean Studies under Grant AKS-2023-R-018.  
+
+This work was supported by the Academy of Korean Studies under Grant AKS-2023-R-018.
 
 ## Contact
-**Steven Denney**  
-Assistant Professor, Institute for Area Studies, Leiden University  
-📧 s.c.denney@hum.leidenuniv.nl  
+
+**Steven Denney**
+Assistant Professor, Institute for Area Studies, Leiden University
+📧 s.c.denney@hum.leidenuniv.nl
