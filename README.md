@@ -18,7 +18,6 @@ Together, the cues shift stated policy preferences through a partisan source-cue
 ## Repository contents
 
 - `paper/`: Latest working paper (manuscript + Supplementary Information combined into a single PDF).
-- `figures/`: Figures referenced in the manuscript and SI (PDF + PNG).
 - Analysis code and replication data to be released upon publication.
 
 ## Funding
