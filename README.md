@@ -1,6 +1,6 @@
 # Persuasion and Prejudice: Are South Korean Attitudes Toward Immigration Open to Change?
 
-Working paper by **Steven Denney**, **Isa van Dam**, and **Christopher Green** (Leiden University).
+[Working paper](https://scdenney.github.io/research/) by **Steven Denney**, **Isa van Dam**, and **Christopher Green** (Leiden University).
 
 ## Overview
 
