@@ -11,7 +11,7 @@ The paper asks whether pro-immigration framing cues the South Korean executive h
 The cues operate at two different levels.
 
 - **Policy preferences shift ideologically.** The growth cue produces measurable, though not uniformly large, effects on stated immigration-policy preferences, and the pattern is ideologically differentiated. Centrists and conservatives consolidate the status quo, while self-placed progressives shift toward restriction. The partisanship cut replicates only partially.
-- **Admission preferences remain basically stable.** Origin, religion, language, co-ethnicity, and skill penalties and premiums in the conjoint hold at the magnitudes the cross-national literature documents, independent of the cue. An exploratory analysis identifies one corner (work history) where the fertility cue moves things at small magnitudes.
+- **Admission preferences remain basically stable.** Origin, language, co-ethnicity, and skill penalties and premiums in the conjoint hold at the magnitudes the cross-national literature documents, independent of the cue. An exploratory analysis identifies one corner (the Filipino and Indonesian origin penalties under the fertility cue) where the cue moves things at small magnitudes.
 
 Together, the cues appear to shift stated policy preferences through a source-cue channel filtered by ideology, while leaving the deeper hierarchies that organize preferences over which immigrants should be admitted in place.
 
